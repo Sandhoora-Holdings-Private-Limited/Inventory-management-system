@@ -1,0 +1,62 @@
+{
+    "Stock_in_entry":{
+        "id":1,
+        "date": "",
+        "nonunique_products":[
+            {
+                "item_id":1,
+                "units":2,
+                "unit_price": 200
+            }
+        ],
+        "unique_products":[
+            {
+                "item_id":2,
+                "serial_no":123, 
+                "price": 300
+            }
+        ]
+    },
+    "Srock_out_entry":{
+        "id":1,
+        "date":"",
+        "customer_id":2,
+        "nonunique_products":[
+            {
+                "item_id":1,
+                "units":2,
+                "unit_price": 200
+            }
+        ],
+        "unique_products":[
+            {
+                "item_id":2,
+                "serial_no":123,
+                "price": 300
+            }
+        ]
+    },
+    "Rent_agrement":{
+        "id":1,
+        "date":"",
+        "customer_id":2,
+        "nonunique_products":[
+            {
+                "item_id":1,
+                "units":2,
+                "unit_rent_price": 200,
+                "rent_period_days":7,
+                "rent_start_date":""
+            }
+        ],
+        "unique_products":[
+            {
+                "item_id":2,
+                "serial_no":123,
+                "rent_price": 200,
+                "rent_period_days":7,
+                "rent_start_date":""
+            }
+        ]
+    }
+}
